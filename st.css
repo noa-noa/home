@@ -1,0 +1,31 @@
+
+body
+{
+  position:relative;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+.btn{
+    width: 100%;  
+    height: auto;
+
+    margin: 0 auto;
+}
+h1{
+    position:relative;
+    zoom:1;
+}
+.center-contents,
+.center-center{
+  position: absolute;
+  transform-style: preserve-3d;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
